@@ -3,7 +3,7 @@ package nl.han.dea.services;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
-    @Path("/health")
+@Path("/health")
     public class HealthCheckResource {
 
         @GET
@@ -11,3 +11,4 @@ import javax.ws.rs.Path;
             return "Up & Running";
         }
     }
+
